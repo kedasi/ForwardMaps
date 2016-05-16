@@ -4,37 +4,41 @@
     android:id="@+id/status_bar_latest_event_content"
     android:layout_width="match_parent"
     android:layout_height="64dp"
-    android:background="#33FF0000"
+    android:background="#ffffff"
     android:minHeight="64dp">
 
     <ImageButton
         android:id="@+id/buttonOpenActivity"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_alignParentLeft="true"
-        android:background="#3333B5E5"
-        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/main_notification_style"
+        android:layout_marginLeft="5dp"
         android:scaleType="centerInside"
         android:src="@drawable/ic_info_outline_white_24dp" />
 
     <ImageButton
         android:id="@+id/buttonResetTripmeter"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:background="#3333B5E5"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/notification_style"
         android:scaleType="centerInside"
         android:src="@drawable/ic_delete_forever_white_24dp" />
 
 
     <ImageButton
         android:id="@+id/buttonAddWayPoint"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:background="#3333B5E5"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/notification_style"
         android:scaleType="centerInside"
         android:src="@drawable/ic_room_white_24dp" />
 

@@ -154,7 +154,8 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                         return;
                     default:
                         return;
-                }
+
+            }
             }
         };
 
@@ -321,7 +322,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         }
 
         if (mOptionsMenu.findItem(R.id.menu_trackposition).isChecked()) {
-            mPolylineOptions = new PolylineOptions().width(5).color(Color.RED);
+            mPolylineOptions = new PolylineOptions().width(50).color(Color.parseColor("#9CCC65"));
             mPolyline = mGoogleMap.addPolyline(mPolylineOptions);
         }
 

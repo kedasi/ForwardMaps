@@ -22,13 +22,22 @@
         android:layout_width="match_parent"
         android:layout_height="110dp"
         android:layout_alignParentBottom="true"
-        android:background="#CCFFFFFF">
+        android:background="@drawable/textview_design"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        >
 
         <Button
             android:id="@+id/buttonAddWayPoint"
+            android:background="#689F38"
+            android:textColor="#ffffff"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
             android:layout_alignParentRight="true"
             android:onClick="buttonAddWayPointClicked"
             android:text="WayPoint" />
@@ -37,11 +46,14 @@
             android:id="@+id/buttonCounterReset"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="#689F38"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="5dp"
             android:layout_alignTop="@id/buttonAddWayPoint"
             android:layout_marginRight="6dp"
             android:layout_toLeftOf="@id/buttonAddWayPoint"
             android:onClick="buttonCResetClicked"
-            android:text="CReset" />
+            android:text="Reset" />
 
         <TextView
             android:id="@+id/label_WP"
@@ -98,19 +110,25 @@
                     android:layout_width="80dp"
                     android:layout_gravity="right"
                     android:layout_marginLeft="4dp"
-                    android:text="CReset" />
+                    android:text="Count"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:layout_width="80dp"
                     android:layout_gravity="right"
                     android:layout_marginLeft="4dp"
-                    android:text="WayPoint" />
+                    android:text="WayPoint"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:layout_width="80dp"
                     android:layout_gravity="right"
                     android:layout_marginLeft="4dp"
-                    android:text="Total" />
+                    android:text="Total"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"/>
             </TableRow>
 
             <TableRow>
